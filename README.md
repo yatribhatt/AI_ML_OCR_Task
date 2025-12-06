@@ -24,7 +24,7 @@ The solution uses **open-source OCR (EasyOCR)** and a custom text extraction pip
 
 ---
 
-▶️ 3. Usage Guide
+## 3. Usage Guide
 
 **To start the application:**
 - streamlit run app.py
