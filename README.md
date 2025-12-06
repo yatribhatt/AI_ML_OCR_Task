@@ -24,7 +24,25 @@ The solution uses **open-source OCR (EasyOCR)** and a custom text extraction pip
 
 ---
 
-## 3. Project Structure
+▶️ 3. Usage Guide
+
+**To start the application:**
+- streamlit run app.py
+
+Using the App:-
+1. Upload a shipping label image
+2. Click “Run OCR & Extract Target Line”
+3. The app displays:
+Original Image
+Preprocessed Image
+All OCR Results (raw text segments)
+Reconstructed Full Lines
+🎯 Final Extracted Target Line
+4. A JSON output is saved in the results/ folder automatically.
+
+---
+
+## 4. Project Structure
 
 ```txt
 project-root/
@@ -42,20 +60,3 @@ project-root/
 │   └── README.md
 └── results/
     └── README.md
-
----
-▶️ 5. Usage Guide
-
-To start the application:
-streamlit run app.py
-
-Using the App:-
-1. Upload a shipping label image
-2. Click “Run OCR & Extract Target Line”
-3. The app displays:
-Original Image
-Preprocessed Image
-All OCR Results (raw text segments)
-Reconstructed Full Lines
-🎯 Final Extracted Target Line
-4. A JSON output is saved in the results/ folder automatically.
